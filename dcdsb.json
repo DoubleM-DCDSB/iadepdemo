@@ -1,0 +1,48 @@
+{
+  "preflight": [
+    {
+      "donotwait": false,
+      "file": "/Library/Application Support/installapplications/preflight_script.py",
+      "hash": "sha256 hash",
+      "name": "Example Preflight Script",
+      "type": "rootscript",
+      "url": "https://domain.tld/preflight_script.py"
+    }
+  ],
+  "setupassistant": [
+    {
+      "file": "/Library/Application Support/installapplications/setupassistant.pkg",
+      "url": "https://domain.tld/setupassistant.pkg",
+      "packageid": "com.package.setupassistant",
+      "version": "1.0",
+      "hash": "sha256 hash",
+      "name": "setupassistant Package Name",
+      "type": "package"
+    }
+  ],
+  "userland": [
+    {
+      "file": "/Library/Application Support/installapplications/userland.pkg",
+      "url": "https://domain.tld/userland.pkg",
+      "packageid": "com.package.userland",
+      "version": "1.0",
+      "hash": "sha256 hash",
+      "name": "Stage 1 Package Name",
+      "type": "package"
+    },
+    {
+      "file": "/Library/Application Support/installapplications/userland_examplerootscript.py",
+      "hash": "sha256 hash",
+      "name": "Example Script",
+      "type": "rootscript",
+      "url": "https://domain.tld/userland_examplerootscript.py"
+    },
+    {
+      "file": "/Library/Application Support/installapplications/userscripts/userland_exampleuserscript.py",
+      "hash": "sha256 hash",
+      "name": "Example Script",
+      "type": "userscript",
+      "url": "https://domain.tld/userland_exampleuserscript.py"
+    }
+  ]
+}
